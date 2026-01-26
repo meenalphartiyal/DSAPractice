@@ -26,6 +26,7 @@ public class TwoSum {
     }
   }
   // Time O(N log N) + O(N/2) ≈ O(N log N) Space: O(1)
+  // 2 pointers Approach after sorting
   private static void optimalApproach(int[] arr, int k){
     Arrays.sort(arr);
     int i=0, j=arr.length-1;

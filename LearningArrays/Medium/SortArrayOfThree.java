@@ -1,6 +1,4 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class SortArrayOfThree {
   private static void printArray(int[] arr){
@@ -41,6 +39,7 @@ public class SortArrayOfThree {
     return res;
   }
   // Time: O(N) Space: O(1)
+  // Dutch National Flag Algorithm
   private static int[] optimalApproach(int[] arr){
     int low=0, mid=0, high=arr.length-1;
     while(mid < high){
