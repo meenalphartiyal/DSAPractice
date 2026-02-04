@@ -54,7 +54,7 @@ public class RotateMatrix {
       {1,3,1,5},
       {1,2,3,4}
     };
-    // printMatrix(bruteForce(mat));
+    printMatrix(bruteForce(mat));
     printMatrix(optimalApproach(mat));
   }
 }

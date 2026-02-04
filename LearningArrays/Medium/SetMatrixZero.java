@@ -96,8 +96,8 @@ public class SetMatrixZero {
       {1, 0, 1},
       {1, 1, 1}
     };
-    // printMatrix(bruteForce(mat));
-    // printMatrix(betterAppraoch(mat));
+    printMatrix(bruteForce(mat));
+    printMatrix(betterAppraoch(mat));
     printMatrix(optimalApproach(mat));
   }
 }
