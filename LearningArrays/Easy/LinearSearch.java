@@ -1,8 +1,9 @@
+package LearningArrays.Easy;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution{
+public class LinearSearch{
     public static int solution(List<Integer> arr, int target){
         for(int i=0; i<arr.size(); i++){
             if(arr.get(i) == target)

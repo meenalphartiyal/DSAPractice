@@ -1,8 +1,9 @@
+package LearningArrays.Easy;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
+public class RotateArray {
     private static void printArray(List<Integer> arr){
         for(int i : arr){
             System.out.print(i + " ");

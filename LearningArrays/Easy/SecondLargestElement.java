@@ -1,8 +1,9 @@
+package LearningArrays.Easy;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution{
+public class SecondLargestElement{
     private static int solution(List<Integer> arr){
         int first = arr.get(0);
         int second = arr.get(0);

@@ -1,8 +1,9 @@
+package LearningArrays.Easy;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution{
+public class IsArraySorted{
     private static boolean solution(List<Integer> arr){
         for(int i=0; i<arr.size()-1; i++){
             if(arr.get(i+1) < arr.get(i))
