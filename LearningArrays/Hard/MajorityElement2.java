@@ -63,8 +63,8 @@ public class MajorityElement2 {
   
     public static void main(String[] args) {
       int[] arr = new int[]{1, 2, 1, 1, 3, 2};
-    // bruteForce(arr);
-    // betterApproach(arr);
+    bruteForce(arr);
+    betterApproach(arr);
     optimalApproach(arr);
     }  
 }
